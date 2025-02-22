@@ -6,16 +6,18 @@ import UserCard from './UserCard';
 import Counter from './counter';
 import Users from './Users';
 import JokeFetcher from './JokeFetcher';
+import Stopwatch from './Stopwatch';
 
 function App() {
   return (
     <div className="App">
       <Welcome />
-      <UserCard name = "John" age = "22" />
-      <UserCard name = "Alice" age = "22" />
-      <Counter />
+      {/* <UserCard name = "John" age = "22" /> */}
+      {/* <UserCard name = "Alice" age = "22" /> */}
+      {/* <Counter /> */}
       {/* <Users /> */}
-      <JokeFetcher />
+      {/* <JokeFetcher /> */}
+      <Stopwatch />
       <p>This is react component</p>
     </div>
   );
