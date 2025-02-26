@@ -12,6 +12,8 @@ import {BrowserRouter as Router, Routes, Route, Link} from "react-router-dom";
 import Home from './Home';
 import User from './User';
 import ControllerForm from './ControllerForm';
+import ThemeProvider from './ThemeProvider';
+import ThemeTester from './ThemeTester';
 
 function App() {
   return (
@@ -34,7 +36,11 @@ function App() {
           <Route path = "/user/:username" element = {<User />}></Route>
         </Routes>
       </Router> */}
-      <ControllerForm />
+      {/* <ControllerForm /> */}
+
+      <ThemeProvider>
+        <ThemeTester />
+      </ThemeProvider>
     </div>
   );
 }
