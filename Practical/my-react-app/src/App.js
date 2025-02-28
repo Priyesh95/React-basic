@@ -14,6 +14,7 @@ import User from './User';
 import ControllerForm from './ControllerForm';
 import ThemeProvider from './ThemeProvider';
 import ThemeTester from './ThemeTester';
+import CounterAdvanced from './Counter_advanced';
 
 function App() {
   return (
@@ -38,9 +39,11 @@ function App() {
       </Router> */}
       {/* <ControllerForm /> */}
 
-      <ThemeProvider>
+      {/* <ThemeProvider>
         <ThemeTester />
-      </ThemeProvider>
+      </ThemeProvider> */}
+
+      <CounterAdvanced />
     </div>
   );
 }
